@@ -1,7 +1,14 @@
+<%-- 
+    Document   : NoLogin
+    Created on : Jun 20, 2015, 4:27:53 PM
+    Author     : Harvey
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Sign In page</title>
+        <title>Bad Login</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,13 +17,9 @@
  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     </head>
     <body style="background-image: url(http://cdn29.us3.fansshare.com/images/starwars/manev-star-wars-1857506868.jpg); background-size:100% auto;">
-        <h1 style="text-align:center;"><span class="label label-primary">Sign In Page</span></h1>
         <div class="form-group" style="text-align:center; display: block; margin: 0 auto;">
-		<form class="form-inline" role="form" method="post" action="Signin">
-		<h3><span class="label label-info">Enter Username:</span></h3>
-		<input type="text" class="form-control input-inline" id="usr" name="uName" placeholder="DarthBane2" required> <br />
-                <input type="submit" value="Sign In" />
-		</form>
-	</div>
+             <h1><span class="label label-danger">Incorrect login information</span></h1>
+             <a href="index.html"class="btn btn-primary btn-sm" role="button">Go Back and Try Again</a>
+        </div>       
     </body>
 </html>
